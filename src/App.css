@@ -6,8 +6,8 @@
   padding: 2px;
   border-radius: 4px;
   width: 100%;
-}
 
+}
 
 .body {
   height: 100vh;
@@ -15,11 +15,7 @@
   margin: 0.5rem;
 }
 
-
-
 /* ---------- IMAGES ------------------------- */
-/* Cloudinary image upload via fake server */
-
 
 .box-image {
   width: 300px;
@@ -33,15 +29,10 @@
   padding: 1rem;
   height: auto;
   width: auto;
-
   border-radius: 4px;
 }
 
-
-
 /*  ----------------NAVBAR--------------------------*/
-
-
 
 .Navbar {
   height: 100px;
@@ -83,16 +74,15 @@
 
 .Navbar .rightSide #hidden {
   display: flex;
-
-  
+  align-items: flex-end;
 }
   
 .Navbar .rightSide .links {
   max-height: 100px;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   transition: 0.7s ease;
+  padding-top: 2rem;
 }
     
 .Navbar .rightSide .links a {
@@ -117,26 +107,6 @@
 
 .nav-item:hover {
   color: gray;
-}
-
-
-
-/*
-.nav-bar {
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100%; 
-}
-
-.nav-item {
-  text-decoration: none;
-  margin-right: 2rem;
-  color: white;
-}
-
-#hamburger-menu {
-  display: none;
 }
 
 /*  ---------  HOME ----------------------------- */
@@ -311,9 +281,9 @@ label {
     }
 */
 
-  .Navbar .leftSide {
+.Navbar .leftSide {
   flex: 50%;
-  }
+}
 
 .Navbar .rightSide {
   flex: 50%;
@@ -323,14 +293,23 @@ label {
 #nav-logo {
   margin-right: auto;
   margin-left: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
+.burger-div {
+  display:flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  align-items: center;
 
-
-.Navbar .rightSide button {
-  display: flex;
 }
+
+.burger-icon {
+  width: 35px;
+  height: 1px;
+  background-color: white;
+  margin: 3px 0;
+ }
 
 .Navbar .rightSide .links {
   display: none;
@@ -338,14 +317,13 @@ label {
 
 .Navbar .rightSide #hidden {
   position: absolute;
-  right: 0px;
+  right: -2.5%;
+  background-color: #1D1D1D;
   top: 100px;
   max-height: 250px;
-  width: 100%;
-  background-color: #1D1D1D;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 } 
 
 .Navbar .rightSide #hidden a {
@@ -354,6 +332,7 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
   }
 
 .home-container {

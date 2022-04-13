@@ -21,7 +21,12 @@ export default function Header() {
         <a href="/kontakt" id="nav-links"className="nav-item">KONTAKT</a>
         <a href="/omoss" id="nav-links"className="nav-item">OM OSS</a>
       </div>
-      <button onClick={() => setShowLinks(!showLinks)}>Hamburger icon</button>
+
+      <div onClick={() => setShowLinks(!showLinks)} className="burger-div">
+        <div className="burger-icon"></div>
+        <div className="burger-icon"></div>
+        <div className="burger-icon"></div>
+        </div>
     </div>   
   </div>
   );
