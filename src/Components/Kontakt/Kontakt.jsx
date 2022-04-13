@@ -14,6 +14,7 @@ export default function Kontakt() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(inputs);
+    setInputs({})
     }
 
 
@@ -21,9 +22,8 @@ export default function Kontakt() {
 
  
   return (
-  <div>
-    <body>
-      
+  <div className="body">
+    
     <h2>Kontakt</h2> 
       <p className="dev-comments" >Lägg till: Kontaktinfo med mail, telefon etc.</p>
       <p className="page-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab ullam expedita soluta cum repellendus, voluptas iste amet deleniti dolore sunt, recusandae minus laboriosam. Veniam!
@@ -66,9 +66,6 @@ export default function Kontakt() {
       
         <input className="submit" type="submit" value="Skicka" />
       </form>
-      
-
-    </body>
-  </div>
+    </div>
   )
 }

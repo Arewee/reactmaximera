@@ -16,31 +16,6 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 function App() {
 
 
-  const[image, setImage]=useState()
-  const[allImages, setAllImages]=useState([])
-
-
-  const handleUpload=()=> {
-    const formData = new FormData()
-    formData.append("file", image)
-    formData.append("upload_preset", "goseDruttGrodan11!")
-    axios.post('https://api.cloudinary.com/v1_1/dgiq3zif9/image/upload',formData)
-    .then(response=>{
-      axios.post('http://localhost:8000/images',{
-        url:response.data.url
-      })
-      .then(res=>console.log(res))
-      .catch(err=>console.log(err))
-    })
-    .catch(err=>console.log(err))
-  }
-
-  useEffect(() => {
-   axios.get('http://localhost:8000/images')
-   .then(res=>{
-     setAllImages(res.data)
-   }).catch(err=>console.log(err))
-  }, [])
   
 
  
