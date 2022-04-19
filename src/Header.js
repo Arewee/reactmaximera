@@ -20,6 +20,7 @@ export default function Header() {
         <a href="/produkter" id="nav-links"className="nav-item">PRODUKTER</a>
         <a href="/kontakt" id="nav-links"className="nav-item">KONTAKT</a>
         <a href="/omoss" id="nav-links"className="nav-item">OM OSS</a>
+        <a href="/datafetching" id="nav-links"className="nav-item">DATA</a>
       </div>
 
       <div onClick={() => setShowLinks(!showLinks)} className="burger-div">

@@ -1,11 +1,13 @@
 
 * {
-  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
   max-width: 1800px;
   margin: auto;
   padding: 2px;
   border-radius: 4px;
-  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 
 }
 
@@ -14,6 +16,8 @@
   width: auto;
   margin: 0.5rem;
 }
+
+
 
 /* ---------- IMAGES ------------------------- */
 
@@ -31,6 +35,34 @@
   width: auto;
   border-radius: 4px;
 }
+  .omoss-img {
+  border-radius: 50%;
+  border: solid 1px #c39ea0;
+  }
+
+ 
+
+  /* ---------- STAFF ------------------------- */
+
+
+  .staff-container {
+    display: flex;
+  }
+  
+  .staff-presentation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  .staff-details {
+    color: gray;
+    font-size: 0.9rem;
+  }
+
 
 /*  ----------------NAVBAR--------------------------*/
 
@@ -46,13 +78,15 @@
 /* -------------  LEFT SIDE  ---------------------  */
 
 .Navbar .leftSide {
-  flex: 30%;
+  flex: 50%;
 }
 
 #nav-logo {
   margin-right: auto;
   margin-left: 2rem;
-  font-size: 2rem;;
+  font-size: 2rem;
+  font-family: 'Inter', sans-serif;
+
 }
 
 
@@ -60,7 +94,7 @@
 
 
 .Navbar .rightSide {
-  flex: 70%;
+  flex: 50%;
   transition: 0.7s ease;
 
 }
@@ -88,7 +122,7 @@
 .Navbar .rightSide .links a {
   text-decoration: none;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #nav-links {
@@ -164,11 +198,73 @@
   color: white;
 }
 
+.boxTitle {
+  font-size: 2rem;
+}
+
+.boxText {
+  font-size: 1.2rem;
+}
+
+.box.one, .box.five {
+  display: flex;
+  justify-content:space-between;
+}
+
+.box.two, .box.three, .box.four {
+  display:flex;
+  flex-direction:column;
+}
+
+.box-image {
+  height: auto;
+  width: 300px;
+}
+
+.box-image2 {
+  height: auto;
+  width: 250px;
+}
+
+.MXbannerInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.MXbannerTitle {
+  font-size: 2rem;
+}
+
+.MXbannerText {
+  font-size: 2rem;
+  width: 30%;
+
+}
+
+.btn {
+  background-color: lightgreen;
+  padding: 0.7rem;
+  border-radius: 8px;
+}
+
+
 /* --------------  PAGES  ---------------------
 ------------------------------------------------*/
 
+.rubrik-sida {
+  display: flex;
+  flex-direction: column;
+  background-color: lavenderblush;
+  padding: 2rem;
+}
+
+.rubrik-pages {
+  text-align: center;
+  margin: 2rem;
+}
+
 .dev-comments {
-  color: red;
+  color: black;
   font-size: 1.5rem;
 }
 
@@ -181,13 +277,26 @@
 .contact-form {
   border: solid 1px black;
   margin-top: 2rem;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 input {
   display: flex;
+  justify-content: center;
   height: 2rem;
   font-size: 1.2rem;
+  border: solid 1px black;
+  width: 80vw;
+}
+
+textarea {
+  font-size: 1.2rem;
+  border: solid 1px black;
+  display: flex;
+  width: 80vw;
 }
 
 .input-box {
@@ -197,16 +306,76 @@ input {
 
 label {
   margin: 1rem;
+}
+
+.submit {
+  width: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 45%;
+  background-color: lightgreen;
+}
+
+.submit:hover {
+  background-color: green;
+}
+/* --------------  PRODUKTER  ---------------------*/
+
+.productContainer {
+display: flex;
+flex-wrap:wrap;
 
 
 }
 
-.submit {
-  width: 8rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 40%;
-  background-color: lightgreen;
+.product-box {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  border: solid 1px lightGray;
+  height: auto;
+}
+
+.produkt-img {
+height: 150px;
+}
+
+.productTitle, .productDescription, .productPrice {
+font-size: 0.7rem;
+}
+
+.productLink {
+font-size: 0.7rem;
+}
+/* --------------  Data  ---------------------*/
+
+.dataFetching {
+  min-height: 100vh;
+}
+
+.productSection {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: start;
+
+}
+
+.productBox {
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+
+.productImage {
+  border: solid 2px black;
+}
+
+.produktTitel {
 
 
 }
@@ -217,10 +386,10 @@ label {
   display: flex;
   color:white;
   background-color: #1D1D1D;
-  height: 100px;
+  height: 70px;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
   
 }
 
@@ -334,6 +503,26 @@ label {
   align-items: center;
   color: white;
   }
+
+  .staff-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .staff-presentation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  .staff-details {
+    color: gray;
+    font-size: 0.9rem;
+  }
+
 
 .home-container {
   grid-template-columns: 1fr;

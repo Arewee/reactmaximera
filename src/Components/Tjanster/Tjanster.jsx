@@ -3,9 +3,13 @@ import React from 'react'
 export default function Tjanster() {
   return (
     <div className="body">
-       <h2>Tjänster</h2> 
-       <p className="dev-comments" >Lägg till: förklarande text till de olika tjänsterna som erbjuds, skall förklara de rutor som finns på förstasidan.</p>
-        <p className="page-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde quos sequi incidunt aspernatur ipsam eum et! Officiis, quae iste. Maiores, ea hic quas perferendis eligendi laborum sed explicabo maxime nihil deserunt dolore placeat sit voluptates repudiandae perspiciatis enim natus dignissimos mollitia tempore. Magni, aspernatur eligendi quis possimus doloribus, soluta, maxime explicabo ratione quas sequi assumenda iste harum? Ullam, nam! Quod eius ad atque commodi, tempora sapiente aliquid quam inventore facere aspernatur illum! Nostrum perferendis praesentium beatae maxime ad ipsam numquam velit, voluptatum hic accusantium fugit quia enim quisquam blanditiis ipsum veniam corporis quasi nisi necessitatibus doloribus mollitia quidem sunt natus? Ab quaerat esse dolores ratione recusandae, molestias magni aut, ipsum iure nostrum officiis ex debitis? Quam voluptatum, nam placeat, cum doloribus libero eveniet ipsum ex et fugiat nesciunt fuga provident consequatur inventore laboriosam eaque rem. Ducimus nemo sapiente autem illum adipisci aut provident assumenda inventore enim molestiae totam cumque, explicabo incidunt! Doloremque molestiae quisquam vero explicabo quibusdam commodi recusandae. Dolorum officiis quasi sapiente quisquam doloribus corporis et fugiat neque dolorem cumque dicta minus, expedita earum natus hic dolor distinctio ducimus quas vero? Ea officia, perspiciatis cumque nihil exercitationem, incidunt, assumenda iste quo commodi molestiae saepe corporis cum quidem possimus eius.
+         <div className="rubrik-sida">
+    <h1 className="rubrik-pages">Tjänster</h1> 
+      <p className="dev-comments" >Webb, hemsida, ehandel, marknadsföring, affärsutveckling</p>
+      
+
+      </div>
+        <p className="page-text">Webb och ehandel är våra huvudsakliga försäljningskanaler. Med det har vi jobbat sedan starten för 15 år sedan. Det är en snabb kanal där effekten ofta kommer snabbt bara man kommer igång. Men det är också ett område under konstant förändring och utveckling. Vi vet hur man kommer igång, vad som krävs för ett mindre företag att starta igång hemsidor och ehandel. Detta oavsett om man har för avsikt att sköta allt själv men behöver hjälp att komma igång, eller få någon som sköter det praktiska så man kan fokusera på det man är bra på själv. Man kan också att få  support och avlastning löpande när man behöver. Hör av er så hittar vi en lösning som passar just er!
         </p>
 
         </div>

@@ -4,11 +4,52 @@ export default function Omoss() {
   return (
     <div className="body">    
       
-   
-    <h2>Om oss</h2> 
+      <div className="rubrik-sida">
+    <h1 className="rubrik-pages">Maximera Profil</h1> 
+      <p className="dev-comments" >Du önskar, vi skapar! Det är vår paroll. Med det tänker vi att vi hjälper våra kunder att ge liv åt sina önskningar. Ibland kan allt börja med en idé som behöver hjälp av växa fram. Det är där vi kan bidra. Vi började på samma sätt. Vilken är din idé? </p>
+    
 
-    <p className="dev-comments" >Lägg till: Bilder personal, om Maximera (när startat, ägare/drivs av/finns i Täby etc)</p>
-    <p className="page-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde quos sequi incidunt aspernatur ipsam eum et! Officiis, quae iste. Maiores, ea hic quas perferendis eligendi laborum sed explicabo maxime nihil deserunt dolore placeat sit voluptates repudiandae perspiciatis enim natus dignissimos mollitia tempore. Magni, aspernatur eligendi quis possimus doloribus, soluta, maxime explicabo ratione quas sequi assumenda iste harum? Ullam, nam! Quod eius ad atque commodi, tempora sapiente aliquid quam inventore facere aspernatur illum! Nostrum perferendis praesentium beatae maxime ad ipsam numquam velit, voluptatum hic accusantium fugit quia enim quisquam blanditiis ipsum veniam corporis quasi nisi necessitatibus doloribus mollitia quidem sunt natus? Ab quaerat esse dolores ratione recusandae, molestias magni aut, ipsum iure nostrum officiis ex debitis? Quam voluptatum, nam placeat, cum doloribus libero eveniet ipsum ex et fugiat nesciunt fuga provident consequatur inventore laboriosam eaque rem. Ducimus nemo sapiente autem illum adipisci aut provident assumenda inventore enim molestiae totam cumque, explicabo incidunt! Doloremque molestiae quisquam vero explicabo quibusdam commodi recusandae. Dolorum officiis quasi sapiente quisquam doloribus corporis et fugiat neque dolorem cumque dicta minus, expedita earum natus hic dolor distinctio ducimus quas vero? Ea officia, perspiciatis cumque nihil exercitationem, incidunt, assumenda iste quo commodi molestiae saepe corporis cum quidem possimus eius.
+      </div>
+
+    <div className="staff-container">
+      <div className="staff-presentation">
+      <img className="omoss-img" src="https://picsum.photos/200?grayscale&blur=2" />
+      <h5>Kristin Viitanen</h5>
+      <p className="staff-details">Ekonomi</p>
+      <p className="staff-details">kristin@maximeraprofil.se</p>
+      </div>
+
+      <div className="staff-presentation">
+      <img className="omoss-img" src="https://picsum.photos/200" />
+      <h5>Lena Simlund</h5>
+      <p className="staff-details">Försäljning och Marknad</p>
+      <p className="staff-details">lena@maximeraprofil.se</p>
+      </div>
+
+      <div className="staff-presentation">
+      <img className="omoss-img" src="https://picsum.photos/200?grayscale&blur=2" />
+      <h5>Rune Liljefors</h5>
+      <p className="staff-details">Webbutveckling</p>
+      <p className="staff-details">rune@maximeraprofil.se</p>
+      </div>
+
+      <div className="staff-presentation">
+      <img className="omoss-img" src="https://picsum.photos/200?blur" />
+      <h5>Rufus Murphy Barkalot</h5>
+      <p className="staff-details">Byråhund</p>
+      <p className="staff-details">kristin@maximeraprofil.se</p>
+      </div>
+    </div>
+
+
+    <p className="dev-comments">Lägg till: Bilder personal, om Maximera (när startat, ägare/drivs av/finns i Täby etc)</p>
+    <p className="page-text">2007 grundades Maximera Profil AB, med mål och ambition att vara den ledande nätbutiken för exklusiva namnplagg inom Norden. Målet var att inspirera genom att erbjuda en förstklassig shoppingupplevelse och den bästa kundservicen med våra egna designer i en mix av bodys, tröjor, onesies, byxor, filtar, ryggsäckar och accessoarer.
+
+Som ett steg i att uppnå vårt mål att vara den ledande nätbutiken för exklusiva namnplagg inom Norden, genomfördes i september 2018 namnbytet till 2you.se. Genom namnbytet ändrade vi också vår inriktning från att i huvudsak erbjuda kläder och accessoarer till barn, till att även erbjuda ett brett sortiment till ungdomar och vuxna.
+
+Hos 2you.se hittar du bland annat kläder, filtar, väskor, ryggsäckar, nyckelband, tygkassar, vantar och mössor. Allt i vårt sortiment går att få med eget valfritt tryck. Vi trycker personliga namn eller andra budskap från endast 1st, vi har inga minimum kvantiteter. Du önskar och vi skapar!
+
+Vi erbjuder även företag allt inom profilreklam och profilkläder – kontakta oss gärna på info@maximeraprofil.se för en offert och mer information.
     </p>
  
      

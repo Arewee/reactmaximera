@@ -4,12 +4,75 @@ export default function Produkter() {
   return (
     <div className="body">    
 
-    <h2>Produkter</h2> 
-    <p className="dev-comments" >Lägg till: 2 topics - Profilprodukter frpn PF samt egna personliga prukter</p>
-    <p className="page-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde quos sequi incidunt aspernatur ipsam eum et! Officiis, quae iste. Maiores, ea hic quas perferendis eligendi laborum sed explicabo maxime nihil deserunt dolore placeat sit voluptates repudiandae perspiciatis enim natus dignissimos mollitia tempore. Magni, aspernatur eligendi quis possimus doloribus, soluta, maxime explicabo ratione quas sequi assumenda iste harum? Ullam, nam! Quod eius ad atque commodi, tempora sapiente aliquid quam inventore facere aspernatur illum! Nostrum perferendis praesentium beatae maxime ad ipsam numquam velit, voluptatum hic accusantium fugit quia enim quisquam blanditiis ipsum veniam corporis quasi nisi necessitatibus doloribus mollitia quidem sunt natus? Ab quaerat esse dolores ratione recusandae, molestias magni aut, ipsum iure nostrum officiis ex debitis? Quam voluptatum, nam placeat, cum doloribus libero eveniet ipsum ex et fugiat nesciunt fuga provident consequatur inventore laboriosam eaque rem. Ducimus nemo sapiente autem illum adipisci aut provident assumenda inventore enim molestiae totam cumque, explicabo incidunt! Doloremque molestiae quisquam vero explicabo quibusdam commodi recusandae. Dolorum officiis quasi sapiente quisquam doloribus corporis et fugiat neque dolorem cumque dicta minus, expedita earum natus hic dolor distinctio ducimus quas vero? Ea officia, perspiciatis cumque nihil exercitationem, incidunt, assumenda iste quo commodi molestiae saepe corporis cum quidem possimus eius.
+<div className="rubrik-sida">
+    <h1 className="rubrik-pages">Produkter</h1> 
+      <p className="dev-comments" >Profilreklam, presentreklam och skräddarsydda produkter</p>
 
+
+      </div>
+    <p className="page-text">
+      Vi har produkterna som behövs för att kunna profilera företag, stora som små. Profilering är viktig för att bygga relationer, få kunder och konsumenter att komma ihåg varumärket och även såklart gentemot den egna personalen.
     </p>
+    <ul>
+      <li>- Promotionmaterial</li>
+      <li>- Give aways</li>
+      <li>- Personalgåvor</li>
+      <li>- Personalkläder</li>
+      <li>- Skräddarsydda lösningar</li>
+    </ul>
+
+
+  <div className="productContainer">
+    <div className="product-box">
+      <img className="produkt-img" src="https://www.pfconcept.com/media/resizeimage/catalog/product/cache/700x700/1/1/11101204.jpg?key=3fd3c666b610d5069db7d7265ed64e1f" alt="" />
+      <p className="productTitle">Product title</p>
+      <p className="productDescription">Product description</p>
+      <p className="productPrice">Product price</p>
+      <a className="productLink" src="">More information</a>
+    </div>
+
+    <div className="product-box">
+      <img className="produkt-img" src="https://www.pfconcept.com/media/resizeimage/catalog/product/cache/700x700/1/0/10905303.jpg?key=3fd3c666b610d5069db7d7265ed64e1f" alt="" />
+      <p className="productTitle">Product title</p>
+      <p className="productDescription">Product description</p>
+      <p className="productPrice">Product price</p>
+      <a className="productLink" src="">More information</a>
+    </div>
+
+    <div className="product-box">
+      <img className="produkt-img" src="https://www.pfconcept.com/media/resizeimage/catalog/product/cache/700x700/3/8/3809160.jpg?key=3fd3c666b610d5069db7d7265ed64e1f" alt="" />
+      <p className="productTitle">Product title</p>
+      <p className="productDescription">Product description</p>
+      <p className="productPrice">Product price</p>
+      <a className="productLink" src="">More information</a>
+    </div>
+
+    <div className="product-box">
+      <img className="produkt-img" src="https://www.pfconcept.com/media/resizeimage/catalog/product/cache/700x700/4/3/43000081.jpg?key=3fd3c666b610d5069db7d7265ed64e1f" alt="" />
+      <p className="productTitle">Product title</p>
+      <p className="productDescription">Product description</p>
+      <p className="productPrice">Product price</p>
+      <a className="productLink" src="">More information</a>
+    </div>
+
+    <div className="product-box">
+      <img className="produkt-img" src="https://www.pfconcept.com/media/resizeimage/catalog/product/cache/700x700/c/b/cb000071.jpg?key=3fd3c666b610d5069db7d7265ed64e1f" alt="" />
+      <p className="productTitle">Product title</p>
+      <p className="productDescription">Product description</p>
+      <p className="productPrice">Product price</p>
+      <a className="productLink" src="">More information</a>
+    </div>
+
+    <div className="product-box">
+      <img className="produkt-img" src="https://www.pfconcept.com/media/resizeimage/catalog/product/cache/700x700/2/1/21070190.jpg?key=3fd3c666b610d5069db7d7265ed64e1f" alt="" />
+      <p className="productTitle">Product title</p>
+      <p className="productDescription">Product description</p>
+      <p className="productPrice">Product price</p>
+      <a className="productLink" src="">More information</a>
+    </div>
    
+
+  </div>
      
     </div>
   )
