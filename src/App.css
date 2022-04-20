@@ -40,7 +40,11 @@
   border: solid 1px #c39ea0;
   }
 
- 
+ .homeBoxImage {
+   height: 300px;
+   width: auto;
+  
+  }
 
   /* ---------- STAFF ------------------------- */
 
@@ -173,8 +177,8 @@
 
 .one {
   grid-area: one;
-  background-color: #373A33;
-  color: white;
+  background-color: #7dd1be;
+  color: #181a19;
 }
 
 .two {
@@ -190,13 +194,16 @@
 .four {
   grid-area: four;
   background-color: #E5E5E1;
+  
 }
 
 .five {
   grid-area: five;
   background-color: #373A33;
   color: white;
-}
+  display: flex;
+  flex-direction: column;
+ }
 
 .boxTitle {
   font-size: 2rem;
@@ -236,15 +243,21 @@
 }
 
 .MXbannerText {
-  font-size: 2rem;
-  width: 30%;
+  font-size: 1.5rem;
+  width: auto;
 
+}
+
+.MXbannerTextKontakt {
+  font-size: 1.5rem;
 }
 
 .btn {
   background-color: lightgreen;
   padding: 0.7rem;
   border-radius: 8px;
+
+  
 }
 
 
@@ -355,28 +368,28 @@ font-size: 0.7rem;
 }
 
 .productSection {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  justify-content: start;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .productBox {
   display: flex;
   flex-direction: column;
- 
+  min-height: 20rem;
+  justify-content: flex-start;
+  align-items: flex-start;
 
 }
 
 
 .productImage {
   border: solid 2px black;
+  height: 150px;
+  width: 150px;
 }
 
 .produktTitel {
-
+width: 150px;
 
 }
 
@@ -411,44 +424,23 @@ font-size: 0.7rem;
   "two three"
   "four five";
 }
+.MXbannerTextKontakt {
+  font-size: 1.2rem;
+}
+
+
+.boxTitle {
+  font-size: 1rem;
+}
+
+.boxText {
+  font-size: 1rem;
+}
+
 }
 
 /* ---------Below - for MOBILE ------------------*/
 @media (max-width:750px) {
-
-  /*
-  .nav-item:not(:first-child){
-    display: none;
-  }
-  */
-/*
-  .nav-item:first-child {
-    margin-right: auto;
-    margin-left: 2rem;
-    font-size: 1.5rem;
-    display: flex;
-    }
-/*
-  .hamburger-menu #nav-logo {
-      display: flex;
-    }
-
-    .nav-bar .links #hidden {
-      display:none;
-    }
-*/
-/*
-    .nav-bar .links #hidden {
-      position: absolute;
-      right: 0px;
-      top: 80px;
-      height: 230px;
-      width: 100%;
-      background-color: red;
-      display: flex;
-      flex-direction: column;
-    }
-*/
 
 .Navbar .leftSide {
   flex: 50%;
@@ -523,6 +515,27 @@ font-size: 0.7rem;
     font-size: 0.9rem;
   }
 
+  .boxTitle {
+    font-size: 1rem;
+  }
+  
+  .boxText {
+    font-size: 0.5em;
+  }
+  .MXbannerTextKontakt {
+    font-size: 0.9rem;
+  }
+  
+
+  .MXbannerTitle {
+    font-size: 1.3rem;
+  }
+
+  .MXbannerText {
+    font-size: 0.9rem;
+    width: auto;
+  
+  }
 
 .home-container {
   grid-template-columns: 1fr;

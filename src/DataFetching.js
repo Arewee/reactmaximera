@@ -10,10 +10,15 @@ export default function DataFetching() {
   const showMoreItems = () => [
     setVisible((prevValue) => prevValue + 5)
   ];
+
+  const imageBaseUrl = 'https://images.pfconcept.com/ProductImages_All/JPG/500x500/';
+
+  const [products, setProducts]=useState([])
   
   useEffect(() => {
     fetch('https://pb-back.herokuapp.com/models')
     .then(response => response.json())
+    
     .then(
       (result) => {
         setIsLoaded(true);
@@ -44,10 +49,10 @@ export default function DataFetching() {
       <div>
         <h3>Alla produkter</h3>
         <section className="productSection">
-          {models.slice(0, visible).map(item => {
+          {models && models.slice(0, visible).map(item => {
             return (
               <div className="productBox" key={item.id}>
-                <img className="productImage" src="https://picsum.photos/200" />
+                <img className="productImage" src={'${imageBaseUrl}/&{models.items[0].item.imageData.imageMain}'} alt="" />
                 <p className="produktTitel">{item.description}</p>
                 <p className="product-id">{item.modelCode}</p>
 
