@@ -1,6 +1,6 @@
 import React from 'react';
-import Mxlogo from '/Users/richardviitanen/reactmaximera/src/assets/maximer__svart.png';
-import Hat from '/Users/richardviitanen/reactmaximera/src/assets/liam_hat.png';
+import Mxlogo from './assets/maximer__svart.png';
+import Hat from './assets/liam_hat.png';
 
 export default function Home() {
   return (
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       
       </div>
-      <img className="picsumImage" src="https://picsum.photos/600/400"></img>
+      <img className="picsumImage" src="https://cdn.abicart.com/shop/ws29/40029/art29/h5707/173635707-origpic-6a1919.png?max-width=720&max-height=720&quality=70&fmt=avif"></img>
     
     
     </div>
