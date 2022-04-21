@@ -1,5 +1,5 @@
 import React from 'react'
-import StaffPic from '/Users/richardviitanen/reactmaximera/src/assets/staff-dummy-image.jpeg';
+import StaffPic from '../../assets/staff-dummy-image.jpeg';
 
 export default function Omoss() {
   return (
