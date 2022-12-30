@@ -17,11 +17,13 @@ export default function Home() {
             <img className="box-image2" src={Hat} alt='' />
         </div>
           
+         
         <div className="box two">
         <img className="homeBoxImage" src="https://cdn.abicart.com/shop/ws29/40029/art29/h6933/161256933-origpic-964d07.jpg?max-width=720&max-height=720&quality=70&fmt=avif" />
         <h3 className="boxTitle">Personliga produkter</h3>
         <p className="boxText">Hos oss kan du hitta lösninar med personlig touch oavsett kvatitet</p>
         </div>
+      
           
           <div className="box three">
           <img className="homeBoxImage" src="https://cdn.abicart.com/shop/ws29/40029/files/vattenflaska%20hej.jpg?max-width=720&max-height=600&quality=85&resize=crop&fmt=avif" />
