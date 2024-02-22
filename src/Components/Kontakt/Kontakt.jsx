@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
-
 export default function Kontakt() {
   
 
@@ -19,7 +18,6 @@ export default function Kontakt() {
     e.target.reset()
  
   }
-
 
   return (
   <div className="body">
